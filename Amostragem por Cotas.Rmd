@@ -1,0 +1,98 @@
+---
+fontsize: 12pt
+output: pdf_document
+---
+
+\pagenumbering{gobble}
+
+```{=tex}
+\begin{center}
+    
+    \Large \textbf{UNIVERSIDADE FEDERAL DO ESPÍRITO SANTO}
+    
+    \vspace{4.5 cm}
+    \large \textbf{Amostragem por Cotas}
+
+    \vspace{4.5 cm}
+    \Large \textbf{IVAN CUNHA VIEIRA}
+    \Large \textbf{Luiz Felipe}
+    
+    \vspace{8 cm}
+    \large VITÓRIA, ES \\
+    2024
+    
+\end{center}
+```
+
+\newpage
+
+\pagenumbering{arabic}
+
+# Resumo
+
+#---# Após terminar o resto do trabalho #---#
+
+PALVRAS CHAVE: Cota; Amostragem por cota. 
+
+# Introdução
+
+De acordo com Deville (1991), uma pesquisa por cota é um método de fácil implementação, 
+além de possuir várias vantagens práticas e ser menos custoso. Apesar disso, 
+também possui desvantagens, como a probabilidade de viés e por necessitar de 
+informações externas para poder definir as cotas. 
+
+
+Deville (1991) define que uma pesquisa por cotas é analisada utilizando-se de dois 
+métodos, sendo eles:
+
+-   Modelagem comportamental e estimação de predições;
+-   Modelagem amostral (amostragem aleatória simples com restrições)
+
+O primeiro método diz respeito
+
+#---# Após terminar Exemplos e Aplicações #---#
+
+# Metodologia
+
+# Exemplos e Aplicações
+
+Como Malhortra () aponta em seu livro "Pesquisa de Marketing", a aplicação de 
+uma amostragem por cotas consiste de dois estágios, sendo eles: 
+
+-   O desenvolvimento de categorias (quotas ou cotas);
+-   
+
+O primeiro estágio define a criação de categorias que controlem elementos da 
+população, como nível econômico, idade, genêro e raça (CROCHAN, ), e então 
+determina a distribuição dessas características na população alvo. Malhortra () 
+ainda determina que essas categorias são definidas na base do julgamento, outro 
+método de amostragem não probabilística em que o pesquisador
+exerce seu próprio julgamento e experiência, diferentemente do que é proposto em
+amostragens probabilísticas, como a amostragem aleatória simples e amostragem 
+estratificada, que possuem uma aleatorização mecânica para seleção da amostra
+(KISH, ).
+O segundo estágio, que consiste na seleção dos elementos, também compreende uma 
+etapa de julgamento ou conveniência, na qual os elementos da amostra são selecionados 
+a partir de algum desses modos. Sua única restrição é que os elementos se encaixem
+às características definidas no primeiro estágio, demonstrando que a amostragem 
+por cotas possui bastante liberdade (MALHORTRA,).
+
+# Considerações finais
+
+
+
+# Referências
+
+Cochran, W.G. (1977) Sampling Techniques. 3rd Edition, John Wiley & Sons, New York.
+
+DEVILLE, J.-C. A Theory of Quota Surveys. Survey Methodology, v. 17, n. 2, p. 163–181,
+1991.
+
+Kish, L. (1965) Survey Sampling. John Wiley and Sons Inc., New York.
+
+MALHOTRA, Naresh K.; MONTINGELLI JÚNIOR, Nivaldo; FARIAS, Alfredo Alves de. 
+Pesquisa de marketing: uma orientação aplicada. 3. ed. Porto Alegre: Bookman, 2001. 
+719 p. ISBN 85-7307-728-X
+
+# Texto de participação
+
