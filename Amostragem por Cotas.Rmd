@@ -4,11 +4,13 @@ output:
   pdf_document:
     latex_engine: xelatex
 header-includes:
-  - \usepackage{graphicx}  # Pacote para inserir imagens
-  - \usepackage{polyglossia}  # Pacote para configuração de idioma
-  - \setmainlanguage{brazilian}  # Configura o idioma para português do Brasil
-  - \usepackage{tocloft}  # Pacote para personalizar o sumário
-  - \renewcommand{\contentsname}{Sumário}  # Altera o título do sumário
+  - \usepackage{graphicx}  
+  - \usepackage{polyglossia} 
+  - \setmainlanguage{brazilian}  
+  - \usepackage{tocloft}  
+  - \renewcommand{\contentsname}{Sumário}  
+  - \usepackage{fontspec}  
+  - \setmainfont{Arial}
 ---
 
 \pagenumbering{gobble}
@@ -42,7 +44,7 @@ header-includes:
 
 \newpage  
 
-# Resumo
+# 1.Resumo
 
 #---# Após terminar o resto do trabalho #---#
 
@@ -50,7 +52,7 @@ PALVRAS CHAVE: Cota; Amostragem por cota.
 
 \newpage
 
-# Introdução
+# 2.Introdução
 
 De acordo com Deville (1991), uma pesquisa por cota é um método de fácil implementação, 
 além de possuir várias vantagens práticas e ser menos custoso. Apesar disso, 
@@ -70,9 +72,9 @@ O primeiro método diz respeito
 
 \newpage
 
-# Metodologia
+# 3.Metodologia
 
-# Exemplos e Aplicações
+# 4.Exemplos e Aplicações
 
 Como Malhortra () aponta em seu livro "Pesquisa de Marketing", a aplicação de 
 uma amostragem por cotas consiste de dois estágios, sendo eles: 
@@ -97,11 +99,11 @@ por cotas possui bastante liberdade (MALHORTRA,).
 
 \newpage
 
-# Considerações finais
+# 5.Considerações finais
 
 \newpage
 
-# Referências
+# 6.Referências
 
 Cochran, W.G. (1977) Sampling Techniques. 3rd Edition, John Wiley & Sons, New York.
 
@@ -118,5 +120,5 @@ AHMED EL-DASH, N. Avaliação metodológica das pesquisas eleitorais brasileiras
 
 \newpage
 
-# Texto de participação
+# 7.Texto de participação
 
