@@ -32,7 +32,10 @@ header-includes:
 
 \newpage
 
-\pagenumbering{arabic}
+\pagenumbering{arabic}  <!-- Reinicia a numeração das páginas -->
+\tableofcontents  <!-- Insere o sumário -->
+
+\newpage  <!-- Nova página após o sumário -->
 
 # Resumo
 
