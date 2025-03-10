@@ -1,6 +1,9 @@
 ---
 fontsize: 12pt
 output: pdf_document
+header-includes:
+  - \usepackage{graphicx}
+  
 ---
 
 \pagenumbering{gobble}
@@ -8,16 +11,19 @@ output: pdf_document
 ```{=tex}
 \begin{center}
     
-    \Large \textbf{UNIVERSIDADE FEDERAL DO ESPÍRITO SANTO}
+    \includegraphics[width=0.3\textwidth]{LOGO.png}
+    
+    \Large \textbf{UNIVERSIDADE FEDERAL DO ESPÍRITO SANTO}\\
+    \Large \textbf{CENTRO DE CIÊNCIAS EXATAS}
     
     \vspace{4.5 cm}
-    \large \textbf{Amostragem por Cotas}
+    \Large \textbf{AMOSTRAGEM POR COTAS}
 
     \vspace{4.5 cm}
-    \Large \textbf{IVAN CUNHA VIEIRA}
-    \Large \textbf{Luiz Felipe}
+    \large \textbf{Ivan Cunha Vieira}\\
+    \large \textbf{Luiz Felipe Leal Venturi}
     
-    \vspace{8 cm}
+    \vspace{4 cm}
     \large VITÓRIA, ES \\
     2024
     
