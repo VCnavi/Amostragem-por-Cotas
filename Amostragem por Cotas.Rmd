@@ -1,9 +1,14 @@
 ---
 fontsize: 12pt
-output: pdf_document
+output: 
+  pdf_document:
+    latex_engine: xelatex
 header-includes:
-  - \usepackage{graphicx}
-  
+  - \usepackage{graphicx}  # Pacote para inserir imagens
+  - \usepackage{polyglossia}  # Pacote para configuração de idioma
+  - \setmainlanguage{brazilian}  # Configura o idioma para português do Brasil
+  - \usepackage{tocloft}  # Pacote para personalizar o sumário
+  - \renewcommand{\contentsname}{Sumário}  # Altera o título do sumário
 ---
 
 \pagenumbering{gobble}
@@ -32,16 +37,18 @@ header-includes:
 
 \newpage
 
-\pagenumbering{arabic}  <!-- Reinicia a numeração das páginas -->
-\tableofcontents  <!-- Insere o sumário -->
+\pagenumbering{arabic} 
+\tableofcontents  
 
-\newpage  <!-- Nova página após o sumário -->
+\newpage  
 
 # Resumo
 
 #---# Após terminar o resto do trabalho #---#
 
 PALVRAS CHAVE: Cota; Amostragem por cota. 
+
+\newpage
 
 # Introdução
 
@@ -60,6 +67,8 @@ métodos, sendo eles:
 O primeiro método diz respeito
 
 #---# Após terminar Exemplos e Aplicações #---#
+
+\newpage
 
 # Metodologia
 
@@ -86,9 +95,11 @@ a partir de algum desses modos. Sua única restrição é que os elementos se en
 às características definidas no primeiro estágio, demonstrando que a amostragem 
 por cotas possui bastante liberdade (MALHORTRA,).
 
+\newpage
+
 # Considerações finais
 
-
+\newpage
 
 # Referências
 
@@ -104,6 +115,8 @@ Pesquisa de marketing: uma orientação aplicada. 3. ed. Porto Alegre: Bookman, 
 719 p. ISBN 85-7307-728-X.
 
 AHMED EL-DASH, N. Avaliação metodológica das pesquisas eleitorais brasileiras. pdf—Universidade de São Paulo: [s.n.].
+
+\newpage
 
 # Texto de participação
 
