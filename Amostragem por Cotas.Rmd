@@ -123,6 +123,7 @@ Segundo (EL-DASH 2010), no método de amostragem por cotas, é possível segrega
 As cotas cruzadas são as mais semelhantes ao processo de amostragem estratificada, mencionado anteriormente. O benefício apresentado nesse tipo de cota é referente ao fato de ela preservar as relações entre as categorias das diferentes variáveis de cota. Isso significa que as correlações entre essas variáveis são devidamente representadas na amostra que será estabelecida. Todavia, o desafio de usar esse tipo de cota se dá ao fato de que o entrevistador, no momento de aplicar o questionário nos potenciais indivíduos para preencher a amostra, terá uma chance muito alta de não completar todas as entrevistas a que se propôs.
 
 Já nas cotas marginais, é possível controlar diversas covariáveis. Porém, somente as marginais estarão presentes na amostra estabelecida. Isso significa que esse tipo de cota não preserva a estrutura de correlação entre as variáveis.
+
 ```{=tex}
 \begin{table}[h]
     \centering
@@ -260,20 +261,35 @@ Em contrapartida, esse tipo de amostragem também possui problemas e desvantagen
 
 # 8.Justificativas Teóricas
 
-Como citado anteriormente, a amostragem por cotas possui pouca confiabilidade dentro
-da literatura, de forma que a estatística inferencial não possui segurança para se basear (DEVILLE, 1991). 
-No entanto, há algumas justificativas para seu uso que envolvem sim inferência. 
-El-Dash (2010) trata sobre essas justificativas do ponto de vista da inferência baseada
-no desenho. De acordo com ele, a primeira justificava é empírica. Sem nos aprofundarmos
-muito na visão teórica da justificativa, é afirmado que determinado procedimento de
-uma amostragem por cotas sempre gera uma distribuição amostral empírica para o estimador, 
-e que 
+Como citado anteriormente, a amostragem por cotas possui pouca confiabilidade dentro da literatura, de forma que a estatística inferencial não possui segurança para se basear (DEVILLE, 1991). No entanto, há algumas justificativas para seu uso que envolvem sim inferência. El-Dash (2010) trata sobre essas justificativas do ponto de vista da inferência baseada no desenho. De acordo com ele, a primeira justificativa é empírica. Sem nos aprofundarmos muito na visão teórica da justificativa, é afirmado que determinado procedimento de uma amostragem por cotas sempre gera uma distribuição amostral empírica para o estimador, e, dessa forma, seria possível estimar a variância amostral desse estimador por meio das amostras geradas pelo processo. Para isso funcionar, é importante seguir o mesmo desenho amostral (instruções dos entrevistadores, categorias e tamanhos das cotas, etc.) em todas as amostras.
+
+Com base nisso, e assumindo que o desenho amostral foi o mesmo, dois procedimentos podem ser utilizados para avaliar a variância:
+
+-  Repetições do mesmo procedimento de seleção;
+
+-  Procedimento de seleção dividido em subamostras.
+
+Para o primeiro caso, El-Dash (2010) diz o seguinte: Supondo que o procedimento foi repetido k vezes,
+mantendo todas as suas condições e elementos relevantes constantes, como as cotas e o tamanho amostral,
+é obtida a estimativa $p_i$, com $i=1,...,k$, do estimador $p_1$. A partir disso, é possível assumir que os valores
+são uma amostra aleatória simples com reposição (AASc) do universo de todos os possíveis valores das estimativas.
+Desse modo, estima-se a variância para $p_1$:
+$$\hat V(p_1)=\dfrac{\sum_{i=1}^k(p_i-\bar p)^2}{k-1},$$
+tal que $\bar p=\frac{1}{k}\sum_{i=1}^kp_i$.
+
+Para o segundo caso, El-Dash (2010) determina que o desenho amostral seja dividido em H amostras independentes 
+(todas com mesma distribuição amostral). Assim, estima-se a variância para $p_2$ dessa forma:
+$$\hat V(p_2)=\dfrac{\sum_{h=1}^H(p_h-\bar p)^2}{H-1},$$
+tal que $\bar p=\frac{1}{H}\sum_{h=1}^Hp_h$
+Um detalhe importante a se reparar é que o problema existente no primeiro caso, em que
+há a necessidade de replicação do desenho amostral (algo que pode ser custoso e difícil na prática),
+não ocorre no segundo caso, onde o desenho amostral é particionado em sub-amostras independentes (EL-DASH, 2010).
 
 \newpage
 
 # 9.Considerações finais
 
-
+Diante do exposto, concluímos que o método de amostragem por cotas, apesar de apresentar baixa confiabilidade dentro da literatura teórica e receber críticas por isso, ainda assim é muito relevante e bastante utilizado, tendo principalmente suas aplicações na área de marketing, uma vez que apresenta baixo custo de implementação e rapidez, possibilitando ganho de produtividade nas análises. Além disso, é possível alcançar resultados bastante satisfatórios quando implementada de forma correta e no cenário adequado, podendo assim equiparar-se à amostragem probabilística.
 
 \newpage
 
@@ -300,6 +316,6 @@ Pesquisa de marketing: uma orientação aplicada. 3. ed. Porto Alegre: Bookman, 
 
 A fim de não prejudicar nenhum estudante e de modo a evitar que algum ficasse sobrecarregado, pois estamos em final de período e temos demandas das demais disciplinas, optamos por fazer o trabalho juntos, acrescentando um ao outro. Por isso, não dividimos tópicos entre nós, pois ficaria difícil equilibrar de forma justa o que cada um iria fazer. Assim, optamos por fazer videochamadas via Google Meet e criar um repositório no GitHub, achando mais adequado e justo fazermos todos os tópicos juntos, uma vez que é um assunto novo e os membros vão se ajudando.
 
-Por isso, estabelecemos o trabalho da seguinte maneira: escolher as referências bibliográficas juntos e lermos as mesmas para que pudéssemos ter uma visão geral sobre o assunto. Posteriormente, começamos pela introdução, onde cada um dos integrantes fez uma parte, mesclando o que cada um produziu para que o texto ficasse o mais sucinto e didático possível. Em seguida, avançamos para os métodos, exemplos, aplicações e tipos de cotas, utilizando fundamentalmente três referências bibliográficas como suporte técnico, são elas: (DEVILLE 1991), (MALHOTRA 2001) e (EL-DASH 2010). Depois, avançamos para problemas, vantagens e desvantagens, e simultaneamente justificativas teóricas, onde nosso suporte técnico foi basicamente EL-DASH (2010).
+Por isso, estabelecemos o trabalho da seguinte maneira: escolher as referências bibliográficas juntos e lermos as mesmas para que pudéssemos ter uma visão geral sobre o assunto. Posteriormente, começamos pela introdução, onde cada um dos integrantes fez uma parte, mesclando o que cada um produziu para que o texto ficasse o mais sucinto e didático possível. Em seguida, avançamos para os métodos, exemplos, aplicações e tipos de cotas, utilizando fundamentalmente três referências bibliográficas como suporte técnico, são elas: (DEVILLE 1991), (MALHOTRA 2001) e (EL-DASH 2010). Depois, avançamos para problemas, vantagens e desvantagens, e simultaneamente justificativas teóricas, onde nosso suporte técnico foi basicamente (EL-DASH 2010).
 
 Uma vez concluída a espinha dorsal do nosso relatório, fizemos o resumo, as considerações finais e as referências bibliográficas. No intuito de estruturar e formatar o presente relatório de acordo com a ABNT, utilizamos como base a sugestão do arquivo "Normas para Elaboração e Redação da Dissertação de Mestrado do Programa de Pós-Graduação em Ciência e Tecnologia de Alimentos", disponível em:https://repositorio.ufes.br/server/api/core/bitstreams/5a6950ef-3cbb-4f8b-9ca0-0d14771829a3/content.
