@@ -91,7 +91,7 @@ Como Malhotra (2001) aponta em seu livro "Pesquisa de Marketing", a aplicação 
 
 -  Seleção dos indivíduos da amostra.
 
-O primeiro estágio define a criação ou seleção de categorias que controlem elementos da população, como nível econômico, idade, gênero e raça (CROCHAN, 1977), que costumam ser covariáveis conhecidas para toda a população e são provenientes do censo populacional ou de pesquisas como a Pesquisa Nacional por Amostra de Domicílios do governo (EL-DASH, 2010). Por fim, nesse estágio, determina-se a distribuição dessas características na população-alvo. Malhotra (2001) ainda diz que essas categorias são definidas na base do julgamento, de forma que o pesquisador exerce seu próprio julgamento e experiência, diferentemente do que é proposto em amostragens probabilísticas, como a amostragem aleatória simples e a amostragem estratificada, que possuem uma aleatorização mecânica para seleção da amostra (KISH, 1965).
+O primeiro estágio define a criação ou seleção de categorias que controlem elementos da população, como nível econômico, idade, gênero e raça (COCHRAN, 1977), que costumam ser covariáveis conhecidas para toda a população e são provenientes do censo populacional ou de pesquisas como a Pesquisa Nacional por Amostra de Domicílios do governo (EL-DASH, 2010). Por fim, nesse estágio, determina-se a distribuição dessas características na população-alvo. Malhotra (2001) ainda diz que essas categorias são definidas na base do julgamento, de forma que o pesquisador exerce seu próprio julgamento e experiência, diferentemente do que é proposto em amostragens probabilísticas, como a amostragem aleatória simples e a amostragem estratificada, que possuem uma aleatorização mecânica para seleção da amostra (KISH, 1965).
 
 O segundo estágio, que consiste na seleção dos elementos, compreende uma etapa de julgamento ou conveniência, na qual os elementos da amostra são selecionados a partir de algum desses modos pelo entrevistador. Sua única restrição é a de que os elementos se encaixem às características definidas no primeiro estágio e que, após definidos os tamanhos amostrais de cada cota, o entrevistador deve entrevistar essa quantidade de pessoas em cada cota (EL-DASH, 2010), demonstrando que a amostragem por cotas possui bastante liberdade (MALHOTRA, 2001).
 
@@ -280,7 +280,8 @@ tal que $\bar p=\frac{1}{k}\sum_{i=1}^kp_i$.
 Para o segundo caso, El-Dash (2010) determina que o desenho amostral seja dividido em H amostras independentes 
 (todas com mesma distribuição amostral). Assim, estima-se a variância para $p_2$ dessa forma:
 $$\hat V(p_2)=\dfrac{\sum_{h=1}^H(p_h-\bar p)^2}{H-1},$$
-tal que $\bar p=\frac{1}{H}\sum_{h=1}^Hp_h$
+tal que $\bar p=\frac{1}{H}\sum_{h=1}^Hp_h$.
+
 Um detalhe importante a se reparar é que o problema existente no primeiro caso, em que
 há a necessidade de replicação do desenho amostral (algo que pode ser custoso e difícil na prática),
 não ocorre no segundo caso, onde o desenho amostral é particionado em sub-amostras independentes (EL-DASH, 2010).
@@ -289,7 +290,7 @@ não ocorre no segundo caso, onde o desenho amostral é particionado em sub-amos
 
 # 9.Considerações finais
 
-Diante do exposto, concluímos que o método de amostragem por cotas, apesar de apresentar baixa confiabilidade dentro da literatura teórica e receber críticas por isso, ainda assim é muito relevante e bastante utilizado, tendo principalmente suas aplicações na área de marketing, uma vez que apresenta baixo custo de implementação e rapidez, possibilitando ganho de produtividade nas análises. Além disso, é possível alcançar resultados bastante satisfatórios quando implementada de forma correta e no cenário adequado, podendo assim equiparar-se à amostragem probabilística.
+Diante do exposto, concluímos que o método de amostragem por cotas, apesar de apresentar baixa confiabilidade dentro da literatura teórica e receber críticas por isso, ainda assim é muito relevante e bastante utilizado, tendo principalmente suas aplicações na área de marketing, uma vez que apresenta baixo custo de implementação e rapidez, possibilitando ganho de produtividade nas análises. Além disso, é possível alcançar resultados bastante satisfatórios quando implementada de forma correta e no cenário adequado, corroborado pelo fado de existirem propostas na literatura para ser utilizada de maneira inferencial baseada no desenho e de maneira empírica, se aproximando de amostragens probabilísticas, como a amostragem aleatória simples.
 
 \newpage
 
