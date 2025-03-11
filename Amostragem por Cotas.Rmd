@@ -131,9 +131,59 @@ com as probabilidades de resposta das pessoas.
 
 # 5.Tipos de Cotas
 
-Algo a ser discutido por El-Dash (2010) são os tipos de cotas. De maneira geral, 
-ele determina dois tipos: as marginais e as cruzadas. 
-A primeira diz respeito
+Segundo El-Dash (2010), no método de amostragem por cotas, é possível segregar as cotas em dois tipos:
+
+-  As cotas cruzadas ou interrelacionadas;
+-  As cotas marginais ou independetes.
+
+As cotas cruzadas são as mais semelhantes ao processo de amostragem estratificada, mencionado anteriormente. 
+O benefício apresentado nesse tipo de cota é referente ao fato dela preservar as relações entre as categorias das diferentes variáveis de cota, isso significa que a correlação entre essas variáveis são devidamente representadas na amostra que será estabelecida. Todavia, o desafio de usar esse tipo de cota é o fato de o entrevitador no momento de aplicar o questionário nos potenciais indivíduos para preencher a amostra terá uma chance muito alta de não completar todas as entrevistas a que se porpôs.
+Já nas cotas marginais é possível controlar diversas covaráveis, porém, somente as marginais estarão presentes na amostra estabelecida, isso significa que esse tipo de cota não preserva a estrutura de correlação entre as variáveis.
+```{=tex}
+\begin{table}[h]
+    \centering
+    \begin{minipage}{0.38\textwidth}
+        \centering
+        \begin{tabular}{|c|c|c|}
+            \hline
+            \textbf{Entrevistas} & \multicolumn{2}{|c|}{\textbf{SEXO}} \\ \hline
+            \textbf{IDADE} & \textbf{MASCULINO} & \textbf{FEMININO} \\ \hline
+            De 16 a 24 anos & 2 & 2 \\ \hline
+            De 25 a 34 anos & 1 & 1 \\ \hline
+            De 35 a 44 anos & 1 & 1 \\ \hline
+            De 45 a 59 anos & 1 & 1 \\ \hline
+            De 60 anos ou mais & 0 & 0 \\ \hline
+        \end{tabular}
+        \caption*{(a) Cotas Cruzadas}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.38\textwidth}
+        \centering
+        \begin{tabular}{|c|c|}
+            \hline
+            \textbf{Entrevistas} & \textbf{Entrevistas} \\ \hline
+            \textbf{IDADE} & \\ \hline
+            De 16 a 24 anos & 4 \\ \hline
+            De 25 a 34 anos & 2 \\ \hline
+            De 35 a 44 anos & 2 \\ \hline
+            De 45 a 59 anos & 2 \\ \hline
+            De 60 anos ou mais & 0 \\ \hline
+        \end{tabular}
+        \caption*{(b) Cotas Marginais}
+    \end{minipage}
+\end{table}
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|c|c|}
+        \hline
+        \textbf{SEXO} & \textbf{Entrevistas} \\ \hline
+        MASCULINO & 5 \\ \hline
+        FEMININO & 5 \\ \hline
+    \end{tabular}
+    \caption*{(b) Cotas Marginais (continuação)}
+\end{table}
+```
 
 \newpage
 
