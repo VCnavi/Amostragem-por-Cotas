@@ -5,7 +5,8 @@ output:
     latex_engine: xelatex
 header-includes:
   - \usepackage{graphicx}  
-  - \usepackage{polyglossia}
+  - \usepackage{polyglossia} 
+  - \setmainlanguage{brazilian}  
   - \usepackage{tocloft}  
   - \renewcommand{\contentsname}{Sumário}  
   - \usepackage{fontspec}  
@@ -30,7 +31,7 @@ header-includes:
     \large \textbf{Luiz Felipe Leal Venturi}
     
     \vspace{4 cm}
-    \large VITÓRIA, ES \\
+    \large VITÓRIA - ES \\
     2024
     
 \end{center}
