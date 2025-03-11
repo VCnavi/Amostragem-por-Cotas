@@ -1,0 +1,288 @@
+---
+fontsize: 12pt
+output: 
+  pdf_document:
+    latex_engine: xelatex
+header-includes:
+  - \usepackage{graphicx}  
+  - \usepackage{polyglossia}
+  - \usepackage{tocloft}  
+  - \renewcommand{\contentsname}{Sumário}  
+  - \usepackage{fontspec}  
+  - \setmainfont{Arial}
+---
+
+\pagenumbering{gobble}
+
+```{=tex}
+\begin{center}
+    
+    \includegraphics[width=0.3\textwidth]{LOGO.png}
+    
+    \Large \textbf{UNIVERSIDADE FEDERAL DO ESPÍRITO SANTO}\\
+    \Large \textbf{CENTRO DE CIÊNCIAS EXATAS}
+    
+    \vspace{4.5 cm}
+    \Large \textbf{AMOSTRAGEM POR COTAS}
+
+    \vspace{4.5 cm}
+    \large \textbf{Ivan Cunha Vieira}\\
+    \large \textbf{Luiz Felipe Leal Venturi}
+    
+    \vspace{4 cm}
+    \large VITÓRIA, ES \\
+    2024
+    
+\end{center}
+```
+
+\newpage
+
+\tableofcontents  
+
+\newpage  
+
+\pagenumbering{arabic}
+
+# 1.Resumo
+
+
+PALVRAS CHAVE: Cota; Amostragem por cota. 
+
+\newpage
+
+# 2.Introdução
+
+
+
+\newpage
+
+# 3.Metodologia
+
+O presente trabalho teve como base uma revisão bibliográfica sobre o tema de amostragem por 
+cotas, realizada a partir da consulta e análise de fontes científicas, como artigos, 
+livros e dissertações. A pesquisa foi conduzida em algumas etapas, sendo elas:
+
+-   Levantamento de Fontes: Após extensa pesquisa sobre o tema, foram selecionadas 
+fontes abordassem os conceitos, aplicações e críticas relacionadas à amostragem 
+por cotas; 
+-   Análise e Síntese: As informações coletadas foram organizadas e analisadas, 
+com o objetivo de identificar os principais conceitos, vantagens, desvantagens e 
+aplicações da amostragem por cotas. Para tal, diferentes visões e abordagens da 
+literatura foram sintetizadas neste trabalho;
+-   Organização do Conteúdo: Os resultados da revisão foram estruturados de forma 
+coerente, destacando os aspectos mais relevantes do tema e apresentando uma visão 
+consolidada sobre a amostragem por cotas, sem a realização de novos experimentos 
+ou coleta de dados primários.
+
+O objetivo da metodologia adotada era de compreender de forma abrangente o tema, 
+baseando-se na síntese e análise do conhecimento já existente na literatura.
+
+# 4.Amostragem por Cotas
+
+Como Malhotra (2001) aponta em seu livro "Pesquisa de Marketing", a aplicação de 
+uma amostragem por cotas consiste de dois estágios, sendo eles: 
+
+-   O desenvolvimento de categorias (quotas ou cotas);
+-   Seleção dos indivíduos da amostra.
+
+O primeiro estágio define a criação ou seleção de categorias que controlem elementos da 
+população, como nível econômico, idade, genêro e raça (CROCHAN, 1977), que costumam ser
+covariáveis conhecidas para toda população e são proveninentes do censo populacional
+ou de pesquisas como a Pesquisa Nacional por Amostragem de Domicílios do governo (EL-DASH, 2010).
+Por fim, nesse estágio determina-se a distribuição dessas características na população alvo. 
+Malhotra (2001) ainda diz que essas categorias são definidas na base do julgamento, de forma
+que o pesquisador exerce seu próprio julgamento e experiência, diferentemente do 
+que é proposto em amostragens probabilísticas, como a amostragem aleatória simples 
+e amostragem estratificada, que possuem uma aleatorização mecânica para seleção 
+da amostra (KISH, 1965).
+
+O segundo estágio, que consiste na seleção dos elementos, compreende uma etapa de 
+julgamento ou conveniência, na qual os elementos da amostra são selecionados 
+a partir de algum desses modos pelo entrevistador. Sua única restrição é a de que 
+os elementos se encaixem às características definidas no primeiro estágio e que, 
+após definidos os tamanhos amostrais de cada cota, o entrevistador deve entrevistar 
+essa quantidade de pessoas em cada cota (EL-DASH, 2010), demonstrando que a amostragem por cotas 
+possui bastante liberdade (MALHOTRA, 2001). 
+
+Por conta dessses fatores, a amostragem por cotas se assemelha em partes à 
+amostragem estratificada, de forma que a distribuição populacional de uma 
+característica discreta, denominada _h_, é conhecida, tal que existam $N_h$ indivíduos. 
+A amostragem, portanto, incluirá $n_h$ indivíduos na categoria _h_ (DEVILLE, 2006).
+Para determinar quais variáveis devem ser utilizadas para as cotas, El-Dash (2010) 
+discute alguns critérios, sendo eles:
+
+-   Estabelecer as cotas que se correlacionam com a variável de interesse para que 
+a mesma possua uma boa representatividade na amostra;
+-   Definir o número máximo de cotas para garantir representatividade da variável 
+de interesse, refletindo as características conhecidas da população (universo de interesse) 
+em todas as covariáveis;
+-   Garantir que perfis populacionais que possuem alguma dificuldade para serem 
+entrevistados façam parte da amostra, determinando cotas que sejam correlacionadas
+com as probabilidades de resposta das pessoas.
+
+\newpage
+
+# 5.Tipos de Cotas
+
+Algo a ser discutido por El-Dash (2010) são os tipos de cotas. De maneira geral, 
+ele determina dois tipos: as marginais e as cruzadas. 
+A primeira diz respeito
+
+\newpage
+
+# 6.Exemplos e Aplicações
+
+Malhotra (2001) apresenta um exemplo de aplicação da amostragem por 
+cotas, no qual ele pretende saber se é possível quantificar o índice de leitura
+de revistas numa área metropolitana. Em sua aplicação, é descrito que houve a 
+realização de uma pesquisa para determinar a leitura de algumas revistas
+por parte de uma população adulta de uma região com 350000 (trezentos e cinquenta mil)
+habitantes. Selecionou-se uma amostra de 1000 (mil) adultos, em que suas características 
+de controle (cotas) eram sexo, idade e raça, tal como apresentado na tabela abaixo. 
+
+```{=tex}
+\begin{table}[htbp]
+  \centering
+  \begin{tabular}{|c c c|}
+    \hline
+    Composição da população & & Composição da amostra \\ \hline
+    Característica de Controle & Percentagem & Número \\ \hline
+      Raça & & \\ \hline
+        Homem & 48 & 480 \\
+        Mulher & 52 & 520 \\ \hline
+        Total & 100 & 1000 \\ \hline
+      Idade & & \\ \hline
+        18-30 & 27 & 270 \\ 
+        31-45 & 39 & 390 \\
+        46-59 & 16 & 160 \\
+        Mais de 60 & 18 & 180 \\ \hline
+        Total & 100 & 1000 \\ \hline
+      Raça & & \\ \hline
+        Branco & 59 & 590 \\
+        Negro & 35 & 350 \\
+        Outros & 6 & 60 \\ \hline
+        Total & 100 & 1000 \\ \hline
+  \end{tabular}
+  \caption{Exemplo 1}
+\end{table}
+```
+
+É possível perceber que, no caso dessa pesquisa, a atribuição amostral das 
+cotas seguiu a mesma porcentagem referente a cada característica de controle da
+população. A ideia por trás disso é uma melhor representatividade das cotas, que
+é o segundo dos três critérios discutidos por El-Dash (2010) para a determinação das variáveis
+das cotas. Apesar disso, pode ser interessante para a pesquisa que alguma cota tenha uma 
+representatividade maior, pois, de acordo com o próprio objetivo da pesquisa, 
+é possível que isso seja relevante para um estudo detalhado (MALHOTRA, 2001).
+Independente do que for escolhido para a amostragem, não há forma de garantir de 
+que a amostra será representativa. Um dos problemas possíveis é a omissão de uma
+característica relevante, que pode acontecer, por exemplo, pelas dificuldades 
+práticas de obtenção de respostas para certas categorias. Ainda assim, a amostragem por 
+cotas, sob as condições corretas, consegue alcançar resultados próximos aos de uma
+amostragem probabilística (MALHOTRA, 2001).
+
+El-Dash (2010) apresenta um exemplo de uma pesquisa domiciliar em sua dissertação, 
+utilizando-se do terceiro critério para determinação das variáveis das cotas. 
+O motivo para esse exemplo, de acordo com o autor, é que há várias evidências 
+empíricas de que variáveis sócio-demográficas estão correlacionadas com as 
+probabilidades de resposta das pessoas.
+
+```{=tex}
+\begin{table}[htbp]
+  \centering
+  \begin{tabular}{|c c c|}
+    \hline
+    Covariável & Categoria & Probabilidade de Resposta Estimada \\ \hline
+      Sexo & & \\ \hline
+        & Homem & 72\% \\ 
+        & Mulher & 79\% \\ \hline
+      Idade & & \\ \hline
+        & 17-24 & 61\% \\
+        & 25-44 & 86\% \\
+        & 45-64 & 81\% \\
+        & 65-74 & 57\% \\ \hline
+      Educação & & \\ \hline 
+        & 0-11 anos & 58\% \\
+        & 12 anos & 72\% \\
+        & 13 anos ou + & 96\% \\ \hline
+      Atividade & & \\ \hline 
+        & Trabalhando & 80\% \\
+        & Dona de Casa & 85\% \\
+        & Outras & 47\% \\ \hline
+      \multicolumn{2}{|c|}{Total} & 75\% \\ \hline
+  \end{tabular}
+  \caption{Exemplo 2}
+\end{table}
+```
+
+Nessa pesquisa em específico, por exemplo, a probabilidade de resposta das 
+mulheres é maior que a dos homens e a probabilidade de resposta de pessoas com 13 anos
+ou mais de escolaridade é maior que a dos demais. Isso pode variar de país para país, 
+ou de região para região, mas a ideia principal é a de que covariáveis sócio-demográficas
+possuem alguma relação com a probabilidade de resposta, e isso  (EL-DASH, 2010).
+
+É importante saber que, pelo fato de não ser uma amostragem probabilística e não
+possuir uma maneira mecânica de se encontrar as respostas procuradas ou realizar as 
+pesquisas, a amostragem por cotas não possui fórmula ideal e vai depender do contexto 
+de cada estudo para poder ser executada com êxito e de maneira satisfatória (EL-DASH, 2010).
+
+\newpage
+
+# 7.Problemas, Vantagens e Desvantagens
+
+Como Deville (1991) discute, amostragens por cotas não costumam ser utilizadas em 
+estatísticas oficiais por conta da falta de literatura confiável na qual 
+estatística inferencial possa se basear para esse tipo de amostragem. Entretanto, 
+é uma amostragem relativamente comum em pesquisas de marketing, de opinião e pesquisas semelhantes 
+pela sua facilidade de implementação, rapidez e baixos custos (MALHOTRA, 1991).
+
+Comparando com amostragens probabilísticas, nas quais o entrevistador precisa entrevistar
+a pessoa selecionada, que pode representar um processo demorado e custoso, 
+priorizando maior confiabilidade, a amostragem por cotas traz benefícios pela liberdade 
+de seleção do entrevistador, que consegue, dessa forma, selecionar qualquer pessoa que 
+ele encontre que se encaixe nas cotas pesquisadas (EL-DASH, 2010), demonstrando 
+potencial de reduzir consideravelmente o tempo de pesquisa e seus custos.
+
+Em contrapartida, esse tipo de amostragem também possui problemas e desvantagens. 
+Como citado anteriormente, o fato de não ser uma amostragem probabilística faz com que
+não seja possível calcular as estimativas precisamente a partir da inferência. 
+El-Dash (2010) também apresenta outros problemas, como a própria liberdade do entrevistador, 
+que pode selecionar de forma equivocada indivíduos no momento das entrevistas e, 
+dessa forma, sub-representar grupos que não condizem com a pesquisa ou que a influenciem
+com algum vício; a falta de homogeneidade das cotas, que pode fazer com que grupos 
+específicos com maior disponibilidade de resposta tragam vício aos resultados; o 
+local da entrevista, que é capaz de introduzir vícios a depender de suas condições, 
+como pela sua inacessibilidade, o que faria com que a cota daquele local não possuísse 
+representatividade na amostra colhida e, portanto, as cotas das demais poderiam 
+carregar um vício pela maior representatividade amostral.
+
+\newpage
+
+# 8.Considerações finais
+
+
+
+\newpage
+
+# 9.Referências
+
+Cochran, W.G. (1977) Sampling Techniques. 3rd Edition, John Wiley & Sons, New York.
+
+DEVILLE, J.-C. A Theory of Quota Surveys. Survey Methodology, v. 17, n. 2, p. 163–181,
+1991.
+
+EL-DASH, Neale Ahmed. Avaliação metodológica das pesquisas eleitorais brasileiras. 
+2010. Tese (Doutorado) – Universidade de São Paulo, São Paulo, 2010. Disponível em:
+https://teses.usp.br/teses/disponiveis/45/45133/tde-20220712-125043/.
+
+Kish, L. (1965) Survey Sampling. John Wiley & Sons, New York.
+
+MALHOTRA, Naresh K.; MONTINGELLI JÚNIOR, Nivaldo; FARIAS, Alfredo Alves de. 
+Pesquisa de marketing: uma orientação aplicada. 3. ed. Porto Alegre: Bookman, 2001. 
+719 p. ISBN 85-7307-728-X
+
+\newpage
+
+# 10.Texto de participação
+
