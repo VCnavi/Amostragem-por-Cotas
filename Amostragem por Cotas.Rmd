@@ -352,13 +352,26 @@ carregar um vício pela maior representatividade amostral.
 
 \newpage
 
-# 8.Considerações finais
+# 8.Justificativas Teóricas
+
+Como citado anteriormente, a amostragem por cotas possui pouca confiabilidade dentro
+da literatura, de forma que a estatística inferencial não possui segurança para se basear (DEVILLE, 1991). 
+No entanto, há algumas justificativas para seu uso que envolvem sim inferência. 
+El-Dash (2010) trata sobre essas justificativas do ponto de vista da inferência baseada
+no desenho. De acordo com ele, a primeira justificava é empírica. Sem nos aprofundarmos
+muito na visão teórica da justificativa, é afirmado que determinado procedimento de
+uma amostragem por cotas sempre gera uma distribuição amostral empírica para o estimador, 
+e que 
+
+\newpage
+
+# 9.Considerações finais
 
 
 
 \newpage
 
-# 9.Referências
+# 10.Referências
 
 Cochran, W.G. (1977) Sampling Techniques. 3rd Edition, John Wiley & Sons, New York.
 
@@ -377,5 +390,5 @@ Pesquisa de marketing: uma orientação aplicada. 3. ed. Porto Alegre: Bookman, 
 
 \newpage
 
-# 10.Texto de participação
+# 11.Texto de participação
 
