@@ -48,7 +48,8 @@ header-includes:
 # 1.Resumo
 
 
-PALVRAS CHAVE: Cota; Amostragem por cota. 
+O presente relátorio tem por intuito estudar e apresentar de forma sintetisada e didática um categria de amostragem bastante relevante, que é amostragem por cotas. Diante do exposto, apresentaremos uma visão geral
+deste tipo de amostragem abrangendo desde a parte de seu surgimento, conceitos fundamentais, exmplos e algumas aplicações até o enceramento deste relátorio com nossas considerações finais a respeito deste tipo de amostragem.
 
 \newpage
 
