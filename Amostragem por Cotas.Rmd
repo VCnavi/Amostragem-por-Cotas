@@ -47,17 +47,49 @@ header-includes:
 
 # 1.Resumo
 
-O presente relatório tem por intuito estudar e apresentar, de forma sintetizada e didática, uma categoria de
-amostragem bastante relevante e que desperta debates conceituais a respeito da sua efetividade, que é a amostragem por cotas. Diante do exposto, apresentaremos uma visão geral 
-desse tipo de amostragem, compreendendo desde o seu surgimento, conceitos fundamentais, exemplos e algumas
-aplicações, até o encerramento deste relatório com nossas considerações finais a respeito desta categoria de amostragem.
+O presente relatório tem por intuito estudar e apresentar, de forma sintetizada 
+e didática, uma categoria de amostragem bastante relevante e que desperta debates 
+conceituais a respeito da sua efetividade, que é a amostragem por cotas. Diante 
+do exposto, apresentaremos uma visão geral desse tipo de amostragem, compreendendo 
+desde o seu surgimento, conceitos fundamentais, exemplos e algumas aplicações, 
+até o encerramento deste relatório com nossas considerações finais a respeito 
+desta categoria de amostragem.
 
 \newpage
 
 # 2.Introdução
 
-Amostragem por cotas teve sua primeira aparição de relevância em 1932, durante o período eleitoral nos Estados Unidos, onde obteve êxito ao acertar o presidente que seria eleito naquele ano, Franklin D. Roosevelt. De acordo com Deville (1991), amostragem por cotas também é muito utilizada em instituições francesas de pesquisa privada.
-A Amostragem por cotas recebe este nome, pois nele está implícito a forma como os indivíduos ou unidades da população serão selecionados para fazerem parte da amostra que está sendo desenhada. O método de amostragem por cotas consiste em fragmentar a população de análise em grupos para serem selecionados para amostra. Para a criação de cotas ou grupos utiliza-se uma ou mais característica que deve ser conhecida para todas as unidades da população. As cotas serão formadas através da combinação dessas características, para ilustrar, utilizaremos como critério a característica "sexo" e "idade", com isso, um exemplo de cota a ser criada é: "Mulheres acima de 25 anos". O método de amostragem por cotas apresenta semelhanças ao método de amostragem estratificada, entretanto, o que diferencia estes dois métodos é o fato de na amostragem por cotas não realizar uma amostra probabilística, com isso, o resposavél pela plano amostral selecionará qualquer indivíduo ou unidade que preencha os requisitos da cota criada, como o exemplo mencionado anteriormente, mulheres acima de 25 anos. Isso implica que a probabilidade de cada indivíduo  pertencer a amostra não será conhecida. Uma das principais características da amostragem por cotas é que ela é primordialmente aplicada em populações humanas. Além disso, a amostragem por cotas apresenta algumas vantagens quando comparada a amostragem probabilística, as principais ficam por conta do seu baixo custo de realização e a rapidez para implementá-la. O que possibilita seu baixo custo e rapidez é o erro de não resposta, esse erro ocorre quando um indivíduo é selecionado e não responde ao questionário formulado ou não responde a um dos itens do questionário. Como no processo de amostragem por cotas não especifica um indivíduo, mas sim que ele se enquadre nos critérios da cota estabeleciada, pode-se facilmente substituir o indivíduo por outro possibilitando assim um ganho de eficiência na coleta e barateamento de custos. 
+Amostragem por cotas teve sua primeira aparição de relevância em 1932, durante 
+o período eleitoral nos Estados Unidos, onde obteve êxito ao acertar o presidente 
+que seria eleito naquele ano, Franklin D. Roosevelt. De acordo com Deville (1991), 
+amostragem por cotas também é muito utilizada em instituições francesas de pesquisa privada.
+
+A Amostragem por cotas recebe este nome, pois nele está implícito a forma como os 
+indivíduos ou unidades da população serão selecionados para fazerem parte da amostra 
+que está sendo desenhada. O método de amostragem por cotas consiste em fragmentar a 
+população de análise em grupos para serem selecionados para amostra. Para a criação 
+de cotas ou grupos utiliza-se uma ou mais característica que deve ser conhecida para 
+todas as unidades da população. As cotas serão formadas através da combinação dessas 
+características, para ilustrar, utilizaremos como critério a característica "sexo" 
+e "idade", com isso, um exemplo de cota a ser criada é: "Mulheres acima de 25 anos". 
+O método de amostragem por cotas apresenta semelhanças ao método de amostragem 
+estratificada, entretanto, o que diferencia estes dois métodos é o fato de na 
+amostragem por cotas não realizar uma amostra probabilística, com isso, o resposavél 
+pela plano amostral selecionará qualquer indivíduo ou unidade que preencha os 
+requisitos da cota criada, como o exemplo mencionado anteriormente, mulheres acima 
+de 25 anos. Isso implica que a probabilidade de cada indivíduo  pertencer a amostra 
+não será conhecida. 
+
+Uma das principais características da amostragem por cotas é 
+que ela é primordialmente aplicada em populações humanas. Além disso, a amostragem
+por cotas apresenta algumas vantagens quando comparada a amostragem probabilística, 
+as principais ficam por conta do seu baixo custo de realização e a rapidez para 
+implementá-la. O que possibilita seu baixo custo e rapidez é o erro de não resposta, 
+esse erro ocorre quando um indivíduo é selecionado e não responde ao questionário 
+formulado ou não responde a um dos itens do questionário. Como no processo de 
+amostragem por cotas não especifica um indivíduo, mas sim que ele se enquadre 
+nos critérios da cota estabeleciada, pode-se facilmente substituir o indivíduo 
+por outro possibilitando assim um ganho de eficiência na coleta e barateamento de custos. 
 
 \newpage
 
@@ -137,8 +169,13 @@ Segundo El-Dash (2010), no método de amostragem por cotas, é possível segrega
 -  As cotas marginais ou independetes.
 
 As cotas cruzadas são as mais semelhantes ao processo de amostragem estratificada, mencionado anteriormente. 
-O benefício apresentado nesse tipo de cota é referente ao fato dela preservar as relações entre as categorias das diferentes variáveis de cota, isso significa que a correlação entre essas variáveis são devidamente representadas na amostra que será estabelecida. Todavia, o desafio de usar esse tipo de cota é o fato de o entrevitador no momento de aplicar o questionário nos potenciais indivíduos para preencher a amostra terá uma chance muito alta de não completar todas as entrevistas a que se porpôs.
-Já nas cotas marginais é possível controlar diversas covaráveis, porém, somente as marginais estarão presentes na amostra estabelecida, isso significa que esse tipo de cota não preserva a estrutura de correlação entre as variáveis.
+O benefício apresentado nesse tipo de cota é referente ao fato dela preservar as relações entre as categorias 
+das diferentes variáveis de cota. Isso significa que as correlações entre essas variáveis são devidamente 
+representadas na amostra que será estabelecida. Todavia, o desafio de usar esse tipo de cota se dá ao fato 
+de que o entrevistador, no momento de aplicar o questionário nos potenciais indivíduos para preencher a amostra, 
+terá uma chance muito alta de não completar todas as entrevistas a que se propôs.
+Já nas cotas marginais é possível controlar diversas covariáveis. Porém, somente as marginais estarão presentes 
+na amostra estabelecida. Isso significa que esse tipo de cota não preserva a estrutura de correlação entre as variáveis.
 ```{=tex}
 \begin{table}[h]
     \centering
